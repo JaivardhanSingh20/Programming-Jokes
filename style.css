@@ -1,0 +1,83 @@
+*{
+    padding : 0 ; 
+    margin : 0 ; 
+    box-sizing : border-box ;
+}
+
+#main-container{
+    height:100vh;
+    width:100vw;
+    background:linear-gradient(to right , rgb(221, 113, 221) 10% , orange);
+    display : flex ; 
+    align-items: center ;
+    justify-content:center;
+}
+
+#main-container #jokes-container{
+    height : 85% ; 
+    width : 60% ; 
+    border : none ; 
+    border-radius:0.5rem;
+    box-shadow:0px 2px 14px rgba(0,0,0,0.4); 
+    background : white ; 
+    display:flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-around;
+}
+
+#main-container #jokes-container #primary-heading{
+    font-size : 2rem ;
+    width : 50% ; 
+    background : black ; 
+    color : white ; 
+    font-weight: bold ;
+    border-radius:0.4rem;
+    padding : 0.5rem 0.5rem ; 
+}
+
+#jokes-container .para{
+    text-align: center;
+    padding : 0.8rem 0.8rem ;
+    font-size : 1.8rem ;
+    font-style: italic;
+    text-shadow:0px 2px 14px rgba(0,0,0,0.6);
+}
+
+#main-container #jokes-container #jokes-section{
+   height:60%;
+   width : 100% ; 
+   border : 2px solid orange ; 
+   display : flex ; 
+   flex-direction: column;
+   align-items: center ;
+   justify-content:space-evenly ; 
+}
+
+#main-container #jokes-container #footer-section{
+    width : 100% ; 
+    display : flex ; 
+    align-items: center ;
+    justify-content:space-around;
+}
+
+
+#jokes-container #footer-section .btn{
+    font-size : 1.2rem ; 
+    background : black ; 
+    outline : none ; 
+    border-radius:0.4rem;
+    font-weight: bold;
+    color : white ; 
+    border : none ; 
+    outline : none ; 
+    padding : 0.5rem 0.5rem ;
+    cursor : pointer ; 
+    transition : all 0.4s ease ;  
+}
+
+
+
+#jokes-container #footer-section .btn:hover{
+    background : rgb(58, 56, 56) ; 
+}
